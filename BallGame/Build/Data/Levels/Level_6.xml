@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Level>
+  <Player mass ="100" radius ="0.85">
+  </Player>
+  
+  <Map>
+    <!-- Dimension of tiles -->
+    <Tile>
+      <Size x="1" y="1" z="1"/>
+      <!-- Map Data -->
+      <Placement>
+XXXSSSSSXXXX
+XXSSSSSSSSSX
+XXSSSSSSSXXX
+XSSSSSSSSSSX
+XSSSSSSSSSSS
+XSSSSSSSSSSX
+XXXSSSSSSSXX
+XXSSSBSSXXXX
+XSSSSSSSSSSX
+SSSSSSSSSSSS
+SSSSSSSSSSSS
+SSSSSSSSSSSS
+SSSSSSSSSSSS
+XXSSSXXSSSXX
+XSSSXXXXSSSX
+SSSSXXXXSSSS
+      </Placement>
+    </Tile>
+    
+    <Obstacles>
+      <Obstacle id ="stray_box" mass ="30">
+        <Placement>
+        </Placement>
+      </Obstacle>
+    </Obstacles>
+  </Map>
+  
+  <Effects>
+    <Effect id ="rain_potato"   probability ="0.3"/>
+    <Effect id ="screen_quake"  probability ="0.2"/>
+  </Effects> 
+</Level>
